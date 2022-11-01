@@ -1,0 +1,945 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300&family=Kanit:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300&family=Kanit:ital@1&family=Montserrat:ital,wght@0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300&family=Kanit:ital@1&family=Montserrat:ital,wght@0,200;0,300;1,200&display=swap');
+
+*{
+    -webkit-transition: .6s;
+  -moz-transition: .6s;
+  -ms-transition: .6s;
+  -o-transition: .6s;
+}
+
+
+.baslik {
+    position: relative;
+    top: 12px;
+    left: 1%;
+    margin-top: 10px;
+    max-height: 5%;
+    max-width: 40%;
+    user-select: none;
+    font-family:kanit;
+    font-size: 200%;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.a {
+background-color: rgb(2, 13, 46);
+width: 100%;
+height: 100%;
+padding: 0;
+margin: 0;
+}
+
+@media screen and(min-width:768px) {
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 16%;
+    top: 4%;
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 8px;
+    
+}
+
+li {
+
+    float: left;
+    display:inline-block;
+}
+
+li a {
+    display: block;
+    background-color: firebrick;
+    color: black;
+    text-decoration: none;
+    padding: 12px 14px;
+    text-align: center;
+    font-family:kanit;
+  transition: .6s;
+
+}
+
+li a:hover {
+    background-color: rgb(51, 134, 206);
+}
+li a:hover:not(.active){
+    background-color: rgb(100, 5, 5);
+}
+.active{
+    background-color: #ffffff;
+}
+
+.vr {
+    position: absolute;
+    top: 15px;
+    left: 40%;
+    border-left: 3px solid #d3d0d0;
+    height: 12%;
+
+
+
+}
+.aktif{
+
+    background-color: rgb(174, 177, 177);
+    
+}
+.aktif2{
+
+    background-color: rgb(174, 177, 177);
+    
+}
+.aktif3{
+
+    background-color: rgb(174, 177, 177);
+    
+}
+.aktif4{
+
+    background-color: rgb(174, 177, 177);
+    
+}
+.aktif5{
+    background-color: rgb(174, 177, 177);
+}
+.aktif6{
+    background-color: rgb(174, 177, 177);
+}
+
+.logo {
+
+    height: 10%;
+    width: 5%;
+    position: absolute;
+    right: 2%;
+    top:1.2vw;
+    
+
+
+}
+
+.btn {
+
+    background-color: firebrick;
+    height: 8%;
+    width: 6%;
+    top: 23px;
+    border: 10px;
+    position: absolute;
+    right: 8%;
+    font-family:kanit;
+    text-decoration: none;
+    font-size: 16px;
+    cursor:pointer;
+    color: #d3d0d0;
+    box-shadow: 0 8px 16px 0 rgba(243, 241, 241, 0.2), 0 6px 20px 0 rgba(255, 254, 254, 0.19);
+    border-radius: 8px;
+    -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+
+
+}
+
+.btn:hover{
+
+    background-color: rgb(110, 6, 6);
+}
+
+.baslikimg{
+
+    width: 98%;
+    height: 63%;
+    position: absolute;
+    top: 18%;
+    border-radius: 7px;
+
+
+
+}
+
+.yataycizgi{
+
+    position: absolute;
+    top: 13%;
+    width: 98%;
+}
+
+.yataycizgi2{
+
+    position: absolute;
+    top: 85%;
+    width: 98%;
+}
+.yataycizgi3{
+
+    position: absolute;
+    top: 145%;
+    width: 98%;
+}
+.yataycizgi4{
+
+    position: absolute;
+    top: 172%;
+    width: 15%;
+    left: 41%;
+    border-radius: 10px;
+
+}
+
+.hosgeldiniz{
+
+    font-family:Gemunu Libre;
+    position:absolute;
+    top: 80%;
+    left: 35%;
+    color: #ffffff;
+    font-size: 80px;
+    user-select: none;
+
+
+}
+
+.yazi1{
+
+    font-size: 25px;
+    font-family:Montserrat;
+    color: #ffffff;
+    position: absolute;
+    top: 110%;
+    left: 12%;
+    
+
+
+}
+.btn2{
+    position: absolute;
+    background-color: rgb(0, 128, 255);
+    width: 40vw;
+    height: 50px;
+    top: 135%;
+    border-radius: 6px;
+    left: 28%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(3, 3, 3);
+    cursor:pointer;
+    box-shadow: 0 8px 16px 0 rgba(255, 117, 117, 0.2), 0 6px 20px 0 rgba(238, 105, 105, 0.19);
+    
+}
+.btn2:hover {
+
+    background-color: #0e0d0c; 
+   
+    color: white;
+   }
+   .yazi2{
+
+    position: absolute;
+    top: 155%;
+    left: 34%;
+    font-size: 40px;
+    color: aliceblue;
+    font-family:Montserrat;
+    user-select: none;
+
+
+   }
+   .dcimg{
+
+    position: absolute;
+    top: 180%;
+    width: 60%;
+    height: 75%;
+    left: -8%;
+    
+
+
+   }
+   .resim{
+
+    position: absolute;
+    top: 187%;
+    width: 40%;
+    height: 55%;
+    left: 55%;
+    border-radius: 6px;
+    user-select: none;
+    box-shadow: 0 10px 16px 0 rgba(255, 255, 255, 0.2), 0 20px 20px 0 rgba(255, 255, 255, 0.2)
+
+   }
+
+   .lifeborndc{
+
+    position: absolute;
+    background-color: rgb(0, 128, 255);
+    width:40%;
+    height: 8%;
+    top:265%;
+    border-radius: 6px;
+    left: 30%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:130%;
+    color: rgb(7, 8, 8);
+    cursor:pointer;
+    box-shadow: 0 8px 16px 0 rgba(255, 117, 117, 0.2), 0 6px 20px 0 rgba(238, 105, 105, 0.19);
+    -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+   }
+   .lifeborndc:hover{
+
+    background-color: #0e0d0c; 
+   
+    color: white;
+   }
+
+   .hakkimizda2{
+
+    position: absolute;
+    top: 125%;
+    left: 6%;
+    width: 40%;
+    height: 50%;
+    border-radius: 8px;
+    box-shadow: 0 10px 16px 0 rgba(255, 255, 255, 0.2), 0 20px 20px 0 rgba(255, 255, 255, 0.2)
+
+
+   }
+
+   .hakkimizda3{
+
+    position: absolute;
+    top: 220%;
+    right: 7%;
+    width: 40%;
+    height: 50%;
+    border-radius: 8px;
+    box-shadow: 0 10px 16px 0 rgba(255, 255, 255, 0.2), 0 20px 20px 0 rgba(255, 255, 255, 0.2)
+
+
+   }
+   .bizkimiz{
+
+    position: absolute;
+    top: 19%;
+    color: #ffffff;
+    left: 40%;
+    font-size: 60px;
+    font-family: Gemunu Libre;
+    user-select: none;
+
+   }
+   .yataycizgi4{
+
+    position: absolute;
+    top: 280%;
+    width: 98%;
+    left: 1%;
+
+
+}
+.yataycizgi5{
+
+    position: absolute;
+    top: 110%;
+    width: 98%;
+    left: 1%;
+
+
+}
+.yataycizgi6{
+
+    position: absolute;
+    top: 200%;
+    width: 98%;
+    left: 1%;
+
+
+}
+.yataycizgi7{
+
+    position: absolute;
+    top: 280%;
+    width: 98%;
+    left: 1%;
+
+
+}
+.yataycizgi8{
+
+    position: absolute;
+    top: 12%;
+    width: 98%;
+
+
+
+}
+.yataycizgi9{
+
+    position: absolute;
+    top: 28%;
+    width: 7%;
+    left: 60%;
+    height: 1px;
+}
+
+.yataycizgi10{
+
+
+    position: absolute;
+    top: 28%;
+    width: 7%;
+    left: 30%;
+    height: 1px;
+}
+.yataycizgi11{
+
+    position: absolute;
+    top: 55%;
+    width: 70%;
+    left: 13%;
+    height: 1px;
+
+
+
+}
+.yataycizgi12{
+
+    position: absolute;
+    top: 110%;
+    width: 70%;
+    left: 13%;
+    height: 1px;
+
+}
+.yataycizgi13{
+
+    position: absolute;
+    top: 55%;
+    color: #ffffff;
+    left: 13%;
+    height: 1px;
+
+}
+.yataycizgi14{
+
+    position: absolute;
+    top: 40%;
+    color: #ffffff;
+    left: 1%;
+    width: 98%;
+}
+
+.hakkimizdayazi1{
+
+    position: absolute;
+    top: 65%;
+    left: 4%;
+    color: #aca9a9;
+    font-size: 30px;
+    font-family: Montserrat;
+
+}
+.hakkimizdayazi2{
+
+    position: absolute;
+    top: 123%;
+    left: 50%;
+    color: #aca9a9;
+    font-size: 30px;
+    font-family: Montserrat;
+
+}
+.hakkimizdayazi3{
+
+    position: absolute;
+    top: 220%;
+    left: 2%;
+    color: #aca9a9;
+    font-size: 28px;
+    font-family: Montserrat;
+
+}
+.iletisimbaslik{
+
+    position: absolute;
+    top: 26%;
+    left: 33%;
+    font-size: 50px;
+    font-family:Gemunu Libre; 
+    color: #d3d0d0;
+    user-select: none;
+}
+.pddc{
+
+    position: absolute;
+    top: 70%;
+    left: 23%;
+    border-radius: 50px;
+    width: 15%;
+    height: 23%;
+    cursor: pointer;
+    box-shadow: 0 10px 16px 0 rgba(255, 255, 255, 0.2), 0 20px 20px 0 rgba(255, 255, 255, 0.2)
+    
+
+}
+.mail{
+
+    position: absolute;
+    top: 70%;
+    left: 56%;
+    border-radius: 60px;
+    width: 15%;
+    height: 23%;
+    box-shadow: 0 10px 16px 0 rgba(255, 255, 255, 0.2), 0 20px 20px 0 rgba(255, 255, 255, 0.2)
+
+
+
+}
+
+
+
+.dikcizgi{
+
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    border-left: 3px solid #ffffff;
+    height:53.5%;
+
+}
+
+.haklar{
+
+    color: #aca9a9;
+    position: absolute;
+    top: 282%;
+    left:40%;
+}
+
+.mirandahaklari{
+
+    position:absolute;
+    top: 15vw;
+    left: 4vw;
+    font-size: 28px;
+    font-family:Gemunu Libre;
+    color: #aca9a9;
+    cursor: pointer;
+    background-color: rgb(2, 13, 46);
+    width: 20%;
+    transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+  float: left;
+    border: 1px solid rgb(255, 0, 0);
+
+}
+.mirandahaklari:hover{
+    background-color: beige;
+}
+
+   
+.telsizkullanim{
+
+    position:absolute;
+    top: 15vw;
+    left: 26vw;
+    font-size: 28px;
+    font-family:Gemunu Libre;
+    color: #aca9a9;
+    cursor: pointer;
+    background-color: rgb(2, 13, 46);
+    width: 20%;
+    transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+  float: left;
+
+    border: 1px solid rgb(255, 0, 0);
+}
+.telsizkullanim:hover{
+    background-color: beige;
+    
+}
+
+.devriyeler{
+
+    position:absolute;
+    top: 15vw;
+    left: 48vw;
+    font-size: 28px;
+    font-family:Gemunu Libre;
+    color: #aca9a9;
+    cursor: pointer;
+    background-color: rgb(2, 13, 46);
+    width: 20%;
+    transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+  float: left;
+
+    border: 1px solid rgb(255, 0, 0);
+
+}
+.devriyeler:hover{
+    background-color: beige;
+}
+
+.hiyerarsi{
+
+    position:absolute;
+    top: 15vw;
+    left: 70vw;
+    font-size: 28px;
+    font-family:Gemunu Libre;
+    color: #aca9a9;
+    cursor: pointer;
+    background-color: rgb(2, 13, 46);
+    width: 20%;
+    transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+  float: left;
+
+    border: 1px solid rgb(255, 0, 0);
+
+}
+.hiyerarsi:hover{
+
+    background-color: beige;
+}
+
+.mirandahaklariyazi{
+
+    position:absolute;
+    top: 95vw;
+    left: 15%;
+    font-family: Montserrat;
+    font-size: 30px;
+    color: #aca9a9;
+    padding: 0;
+    display: block;
+}
+.mirandahaklaribaslik{
+
+    position: absolute;
+    top: 60vw;
+    color: #ffffff;
+    left: 35vw;
+    font-family: kanit;
+    font-size: 50px;
+    padding: 0;
+
+
+}
+
+.telsizkullanimyazi{
+
+    position:absolute;
+    top: 140vw;
+    left: 5%;
+    font-family: Montserrat;
+    font-size: 30px;
+    color: #aca9a9;
+    padding: 0;
+    display: block;
+}
+.telsizkullanimbaslik{
+
+    position: absolute;
+    top: 110vw;
+    color: #ffffff;
+    left: 26vw;
+    font-family: kanit;
+    font-size: 50px;
+    padding: 0;
+
+}
+
+.devriyeleryazi{
+
+    position:absolute;
+    top: 240vw;
+    left: 5%;
+    font-family:Montserrat;
+    font-size: 30px;
+    color: #aca9a9;
+    padding: 0;
+    display:block;
+
+}
+.devriyelerbaslik{
+
+    position:absolute;
+    top: 220vw;
+    left: 30%;
+    font-family:kanit;
+    font-size: 55px;
+    color: #ffffff;;
+    padding: 0;
+    
+}
+
+.hiyerarsiyazi{
+
+    position:absolute;
+    top: 300vw;
+    left: 5%;
+    font-family: Montserrat;
+    font-size: 30px;
+    color: #aca9a9;
+    padding: 0;
+    display: block;
+}
+.hiyerarsibaslik{
+
+    position:absolute;
+    top: 280vw;
+    left: 30%;
+    font-family: kanit;
+    font-size: 50px;
+    color: #ffffff;;
+    padding: 0;
+
+}
+
+
+.iceriklerbaslik{
+
+    position: absolute;
+    top: 7vw;
+    left: 42vw;
+    color: #d3d0d0;
+    font-family: kanit;
+    font-size: 30px;
+    user-select: none;
+    padding: 0;
+
+
+}
+ 
+.kutu{
+
+    width:  62%;
+    height:53%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    position: absolute;
+    top: 55%;
+    left: 17%;
+
+}
+
+.icerikler1{
+
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    top: 45%;
+    left: 3%;
+    border-radius: 5px;
+
+}
+.icerikler2{
+
+    
+    width: 44%;
+    height: 50%;
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    border-radius: 5px;
+}
+
+.girisbaslik{
+
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    font-family: kanit;
+
+}
+
+
+
+
+/* MENU */
+
+
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(1, 7, 27);
+    overflow-x: hidden;
+	text-align:center;
+    transition: 1s;
+    padding-top: 60px;
+    
+}
+
+.sidenav a{
+
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+    
+}
+
+.sidenav a:hover{
+
+    color: rgb(255, 255, 255);
+}
+
+.sidenav .closebtn{
+
+    position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+}
+
+
+@media screen  and (max-width:900px){
+
+    .sidenav{
+        height: 100%;
+        width: 0%;
+    }
+    .sidenav a{
+        padding: 20px 20px 20px 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .spann{
+        display:inline-flex;
+        color: #aca9a9;
+        position: absolute;
+        top: 2.5%;
+        padding: 0;
+        margin: 0;
+        left: 1%;
+    }
+   
+    .baslik{
+        position: absolute;
+        top: 2%;
+        left: 10%;
+        font-size: 15px;
+        font-family: kanit;
+        display: inline-block;
+        max-width: 65%;     
+
+    }
+    ul{
+        display: none;
+    }
+
+    .btn{
+        background-color: firebrick;
+        height: 7%;
+        width:10%;
+        top: 23px;
+        border: 10px;
+        position: absolute;
+        right: 14%;
+        font-family:kanit;
+        text-decoration: none;
+        font-size: 10px;
+        cursor:pointer;
+        color: #d3d0d0;
+        box-shadow: 0 8px 16px 0 rgba(243, 241, 241, 0.2), 0 6px 20px 0 rgba(255, 254, 254, 0.19);
+        border-radius: 8px;
+       
+    }
+    .logo{
+        height: 8%;
+        width: 9%;
+        position: absolute;
+        right: 3%;
+        top:3vw;
+    
+    }
+    .yataycizgi{
+        position: absolute;
+        top:10%;
+        width: 98%;
+
+    }
+    
+    
+}
+
+@media screen and (max-width:350px) {
+    .baslik{
+        position: absolute;
+        top: 1%;
+        left: 20%;
+        font-size: 15px;
+        font-family: kanit;
+        display: inline-block;
+        max-width: 65%;     
+
+    }
+
+    
+}
+
+@media screen and (min-width:900px) {
+    
+    .spann{
+        display: none;
+    }
+}
+
+.menufont{
+    font-size: 10%;
+    font-family:Gemunu Libre;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+    
+    
